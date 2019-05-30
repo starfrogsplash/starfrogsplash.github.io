@@ -1,9 +1,9 @@
 import React from 'react';
 import '../sass/main.css';
 
-const repeat = (item) => {
+const repeat = (item, num) => {
     const fireflys = [];
-    for (let i = 0; i < 25; i++){
+    for (let i = 0; i < num; i++){
        fireflys.push(item)
     }
     return fireflys
@@ -17,7 +17,7 @@ export const Header = () => (
     </div>
     <div className="fireflySet">
 
-    { repeat(<div className="firefly"></div>)}
+    { repeat(<div className="firefly"></div>, 25)}
 
     </div>
     <div id="about" className="aboutClipTop"></div>
