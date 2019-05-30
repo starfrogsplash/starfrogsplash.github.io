@@ -3,7 +3,7 @@ import '../sass/main.css';
 
 const repeat = (item) => {
     const fireflys = [];
-    for (let i = 0; i < 15; i++){
+    for (let i = 0; i < 25; i++){
        fireflys.push(item)
     }
     return fireflys
