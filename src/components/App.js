@@ -6,8 +6,7 @@ import Footer from "./footer";
 import { Header } from "./header";
 import "../sass/main.css";
 
-function App() {
-  return (
+const App = () => (
     <div className="container">
       <NavBar />
       <Header />
@@ -21,6 +20,6 @@ function App() {
       <Footer/>
     </div>
   );
-}
+
 
 export default App;
