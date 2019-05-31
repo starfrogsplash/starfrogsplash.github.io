@@ -1,4 +1,4 @@
-import React , {Fragment}from "react";
+import React , {Fragment} from "react";
 import "../sass/main.css";
 import LightSpeed from 'react-reveal/LightSpeed';
 import VisibilitySensor from "react-visibility-sensor";

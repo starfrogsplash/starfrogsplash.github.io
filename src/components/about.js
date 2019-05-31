@@ -1,28 +1,27 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../sass/main.css";
 import BioPicture from "../image/2018-Cover.jpg";
 import cloudLogo from "../image/AWS_combined.png";
 import prince2logo from "../image/Prince2.png";
 import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
+import LightSpeed from "react-reveal/LightSpeed";
 
 import VisibilitySensor from "react-visibility-sensor";
 
 const About = () => (
   <section id="About" className="about">
 
-    <VisibilitySensor>
-      {({ isVisible }) => (
-        <Spring delay={300} to={{ opacity: isVisible ? 1 : 0, transform: "translate(-220px, 0)"}}>
-          {({ opacity }) => (
-            <div style={{ opacity }} className="about__title__text">
-              ABOUT
+        <LightSpeed left duration={1000} delay={100}>
+          <div className="about__title__text">
+            ABOUT
+            <LightSpeed left  duration={1200} delay={600}>
               <div className="about__title__line">&nbsp;</div>
-            </div>
-          )}
-        </Spring>
-      )}
-    </VisibilitySensor>
+            </LightSpeed>
+          </div>
+        </LightSpeed>
+
+
 
     <Fade left duration={700}>
       <img src={BioPicture} alt="BioPicture" className="about__bioPicture" />
@@ -31,13 +30,13 @@ const About = () => (
     <Fade left duration={800}>
       <p className="about__description">
         After spending the first years of my professional career as a 3D artist
-        for video games, I went through a period of intensive studying to retrain
-        as a full-stack developer. Since that time, I have gained over a year's
-        experience in the web development industry, and am learning and building
-        my knowledge every day by continually updating my knowledge of current
-        technology trends and tooling. I am a highly-motivated and enthusiastic
-        team member, and always willing to improve myself and expand my
-        capabilities.
+        for video games, I went through a period of intensive studying to
+        retrain as a full-stack developer. Since that time, I have gained over a
+        year's experience in the web development industry, and am learning and
+        building my knowledge every day by continually updating my knowledge of
+        current technology trends and tooling. I am a highly-motivated and
+        enthusiastic team member, and always willing to improve myself and
+        expand my capabilities.
       </p>
     </Fade>
 
@@ -47,26 +46,28 @@ const About = () => (
         <div className="teckStack__title__line">&nbsp;</div>
       </div>
 
-      <ol className="teckStack__list">
-        <li className="teckStack__list__item">
-          <a href="">React.js</a>
-        </li>
-        <li className="teckStack__list__item">
-          <a href="">Node.js</a>
-        </li>
-        <li className="teckStack__list__item">
-          <a href="">GraphQL</a>
-        </li>
-        <li className="teckStack__list__item">
-          <a href="">MongoDB</a>
-        </li>
-        <li className="teckStack__list__item">
-          <a href="">PostgreSQL</a>
-        </li>
-        <li className="teckStack__list__item">
-          <a href="">HTML/CSS</a>
-        </li>
-      </ol>
+      <LightSpeed left cascade>
+        <ol className="teckStack__list">
+          <li className="teckStack__list__item">
+            <a href="">React.js</a>
+          </li>
+          <li className="teckStack__list__item">
+            <a href="">Node.js</a>
+          </li>
+          <li className="teckStack__list__item">
+            <a href="">GraphQL</a>
+          </li>
+          <li className="teckStack__list__item">
+            <a href="">MongoDB</a>
+          </li>
+          <li className="teckStack__list__item">
+            <a href="">PostgreSQL</a>
+          </li>
+          <li className="teckStack__list__item">
+            <a href="">HTML/CSS</a>
+          </li>
+        </ol>
+      </LightSpeed>
     </div>
 
     <hr />

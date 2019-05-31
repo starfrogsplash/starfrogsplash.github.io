@@ -21,7 +21,11 @@
 
   
        &__title  {
+
+        
         &__text{
+            width: 40rem;
+            text-align: center;
             font-family: "SignPainter";
             font-size: 4rem;
             grid-area: a;
@@ -36,7 +40,7 @@
 
         &__line{
             grid-area: a;
-            width: 60%;
+            width: 20%;
             height: 1px;
             margin: 0 auto;
             border-bottom: .2rem solid #b6cccf;
@@ -100,6 +104,7 @@
 
     &__list{
         font-family: "SignPainter";
+        
         &__item a{
             position: relative;
             display: block;
