@@ -161,14 +161,15 @@ hr{
     height: 10rem;
     width: 90vh;
 
-    @media (max-width: 520px){
+    @media (max-width: 600px){
          flex-direction: column;
-         width: 30vh;
+         width: 34vh;
     }
 
     &__logo{
         display: flex;
-        @media (max-width: 520px){
+        margin: 0 1rem;
+        @media (max-width: 600px){
             display: block;
        }
 
@@ -180,9 +181,12 @@ hr{
 
     &__prince2_tag{
         display: flex;
-        @media (max-width: 520px){
+        margin: 0 1rem;
+        @media (max-width: 600px){
             display: block;
+            
        }
+
         &__image{
             object-fit: contain;
             width: 100%;
