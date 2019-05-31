@@ -1,6 +1,6 @@
-import React , {Fragment} from "react";
+import React, { Fragment } from "react";
 import "../sass/main.css";
-import LightSpeed from 'react-reveal/LightSpeed';
+import LightSpeed from "react-reveal/LightSpeed";
 import VisibilitySensor from "react-visibility-sensor";
 
 const repeat = (item, num) => {
@@ -12,26 +12,14 @@ const repeat = (item, num) => {
 };
 
 export const Header = () => (
-  <section  className="header">
+  <section className="header">
     <div id="home" className="header__text">
-
-        <VisibilitySensor>
-            {({ isVisible }) => (
-              <Fragment>
-                <LightSpeed left when={isVisible} duration={2000}>
-                <h1 className="header__text__name">Ali Khalil</h1>
-                </LightSpeed>
-                <LightSpeed right when={isVisible} duration={2000}>
-                <h1 className="header__text__title">Full Stack Web Developer</h1>
-                </LightSpeed>
-              </Fragment>
-            )}
-      </VisibilitySensor>
-
-
-
-
-
+      <LightSpeed left duration={2000}>
+        <h1 className="header__text__name">Ali Khalil</h1>
+      </LightSpeed>
+      <LightSpeed right duration={2000}>
+        <h1 className="header__text__title">Full Stack Web Developer</h1>
+      </LightSpeed>
     </div>
     <div className="fireflySet">{repeat(<div className="firefly" />, 25)}</div>
     <div id="about" className="aboutClipTop" />
