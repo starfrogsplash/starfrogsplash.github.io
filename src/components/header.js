@@ -11,6 +11,7 @@ const repeat = (item, num) => {
   return fireflys;
 };
 
+
 export const Header = () => (
   <section className="header">
     <div id="home" className="header__text">
