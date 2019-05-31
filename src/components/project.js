@@ -6,13 +6,6 @@ import Fade from "react-reveal/Fade";
 
 const Project = () => (
   <div className="projects">
-    <Fade left duration={250} delay={50}>
-      <Card
-        image={comingSoon}
-        demoLink={"https://www.linkedin.com/in/ali-khalil-81100840/"}
-        githubLink={"https://github.com/starfrogsplash/"}
-      />
-    </Fade>
 
     <Fade left duration={700} delay={100}>
       <Card
