@@ -45,8 +45,9 @@
     background-color: rgb(83, 84, 82);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: auto;
-    max-width: 30rem;
+    // height: auto;
+    // max-width: 30rem;
+    width: auto;
     grid-row-gap: 1.2rem;
     justify-items: center;
     border-radius: .5rem;
