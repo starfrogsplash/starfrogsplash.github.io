@@ -5,3 +5,11 @@ src: url('../fonts/Snell\ Roundhand\ Script.ttf') format('truetype'), /* IE6-IE8
 url('../fonts/SnellBT-Regular.woff') format('woff'), /* Pretty Modern Browsers */
 url('../fonts/Snell\ Roundhand\ Script.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
+
+@font-face {
+    font-family: 'SignPainter';
+    src: url('../fonts/SignPainter\ HouseScript\ Regular.ttf') format('truetype'), /* IE6-IE8 */
+    url('../fonts/SignPainter-HouseBrush.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/SignPainter\ HouseScript\ Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+    
