@@ -18,7 +18,7 @@ export const Header = () => (
       <LightSpeed left duration={2000}>
         <h1 className="header__text__name">Ali Khalil</h1>
       </LightSpeed>
-      <LightSpeed right duration={2000}>
+      <LightSpeed left duration={2000} delay={600}>
         <h1 className="header__text__title">Full Stack Web Developer</h1>
       </LightSpeed>
     </div>
