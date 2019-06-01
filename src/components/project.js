@@ -21,7 +21,7 @@ const Project = () => (
         githubLink={"https://github.com/starfrogsplash/"}
       />
     </Fade>
-    <Fade left duration={2000} delay={400}>
+    <Fade left duration={1700} delay={400}>
       <Card
         image={comingSoon}
         demoLink={"https://www.linkedin.com/in/ali-khalil-81100840/"}

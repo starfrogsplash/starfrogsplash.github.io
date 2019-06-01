@@ -70,8 +70,7 @@ hr {
 
 
     @media (max-width: 650px){
-        grid-template-rows: repeat(2, minmax(min-content, 100vh)) 10vh repeat(3, min-content);
-        
+        grid-template-rows: repeat(2, minmax(min-content, 100vh)) 10vh repeat(3, min-content);    
    }
 
     background: linear-gradient(to bottom, black 30%, transparent 31%);
@@ -83,8 +82,6 @@ hr {
          "PHeader PHeader PHeader PHeader PHeader PHeader "
         "Project Project Project Project Project Project "
         "Footer Footer Footer Footer Footer Footer ";
-
-      
 
 
 }

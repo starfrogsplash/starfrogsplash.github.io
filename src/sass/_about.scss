@@ -74,6 +74,12 @@
         color: whitesmoke;
         grid-area: c;
         text-align: center;
+
+        @media (max-width: 650px){
+            padding: 2rem 3rem;
+            font-size: 1.2rem;   
+       }
+    
     }
 
 }

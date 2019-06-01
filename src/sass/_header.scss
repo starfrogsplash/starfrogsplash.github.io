@@ -21,6 +21,11 @@
         flex: 1 0 100%;
         font-size: 5vh;
 
+        @media (max-width: 650px){
+            font-size: 7vh;
+       }
+
+    
         &__name {
             font-size: 7rem;
             padding: 0 5rem;
@@ -28,6 +33,10 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
+            @media (max-width: 650px){
+                font-size: 3rem;
+           }
         }
 
         &__title {
@@ -36,6 +45,10 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
+            @media (max-width: 650px){
+                font-size: 2rem;
+           }
         }
 
     }

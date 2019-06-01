@@ -3,7 +3,6 @@ import "../sass/main.css";
 import BioPicture from "../image/2018-Cover.jpg";
 import cloudLogo from "../image/AWS_combined.png";
 import prince2logo from "../image/Prince2.png";
-import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
 import LightSpeed from "react-reveal/LightSpeed";
 
@@ -21,13 +20,11 @@ const About = () => (
           </div>
         </LightSpeed>
 
-
-
-    <Fade left duration={700}>
+    <Fade left duration={700} delay={200}>
       <img src={BioPicture} alt="BioPicture" className="about__bioPicture" />
     </Fade>
 
-    <Fade left duration={800}>
+    <Fade left duration={800} delay={400}>
       <p className="about__description">
         After spending the first years of my professional career as a 3D artist
         for video games, I went through a period of intensive studying to
@@ -49,22 +46,22 @@ const About = () => (
       <LightSpeed left cascade>
         <ol className="teckStack__list">
           <li className="teckStack__list__item">
-            <a href="">React.js</a>
+            <a >React.js</a>
           </li>
           <li className="teckStack__list__item">
-            <a href="">Node.js</a>
+            <a >Node.js</a>
           </li>
           <li className="teckStack__list__item">
-            <a href="">GraphQL</a>
+            <a >GraphQL</a>
           </li>
           <li className="teckStack__list__item">
-            <a href="">MongoDB</a>
+            <a >MongoDB</a>
           </li>
           <li className="teckStack__list__item">
-            <a href="">PostgreSQL</a>
+            <a >PostgreSQL</a>
           </li>
           <li className="teckStack__list__item">
-            <a href="">HTML/CSS</a>
+            <a >HTML/CSS</a>
           </li>
         </ol>
       </LightSpeed>
