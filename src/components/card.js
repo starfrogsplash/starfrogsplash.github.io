@@ -3,8 +3,8 @@ import "../sass/main.css";
 import { useSpring, animated } from "react-spring";
 
 const calc = (x, y) => [
-  -(y - window.innerHeight / 2) / 20,
-  (x - window.innerWidth / 2) / 20,
+  -(y - window.innerHeight / 2) / 30,
+  (x - window.innerWidth / 2) / 30,
   1.1
 ];
 const trans = (x, y, s) =>
@@ -13,7 +13,7 @@ const trans = (x, y, s) =>
 const Card = ({ image, demoLink, githubLink }) => {
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 5, tension: 350, friction: 40 }
+    config: { mass: 5, tension: 350, friction: 80 }
   }));
 
   return (

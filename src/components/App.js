@@ -5,20 +5,27 @@ import Project from "./project";
 import Footer from "./footer";
 import { Header } from "./header";
 import "../sass/main.css";
+import LightSpeed from "react-reveal/LightSpeed";
 
 const App = () => (
-    <div className="container">
-      <NavBar />
-      <Header />
-      <About />
-      <div className="aboutClip" />
+  <div className="container">
+    <NavBar />
+    <Header />
+    <About />
+    <div className="aboutClip" />
+
+    <LightSpeed left duration={1000} delay={100}>
       <div id="Project" className="title">
         Projects
-        <div className="title__line">&nbsp;</div>
+        <LightSpeed left duration={1200} delay={600}>
+          <div className="title__line">&nbsp;</div>
+        </LightSpeed>
       </div>
-      <Project/>
-      <Footer/>
-    </div>
-  );
+    </LightSpeed>
+
+    <Project />
+    <Footer />
+  </div>
+);
 
 export default App;
