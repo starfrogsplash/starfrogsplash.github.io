@@ -14,6 +14,7 @@ const App = () => (
     <About />
     <div className="aboutClip" />
 
+    
     <LightSpeed left duration={1000} delay={100}>
       <div id="Project" className="title">
         Projects
