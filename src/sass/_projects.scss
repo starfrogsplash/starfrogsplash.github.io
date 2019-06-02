@@ -1,5 +1,5 @@
 .title {
-    margin-top: 5rem;
+
     grid-area: PHeader;
     text-align: center;
     font-family: "SignPainter";
@@ -52,12 +52,11 @@
     background-color: rgb(83, 84, 82);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // height: auto;
-    max-width: 30rem;
+ 
+    max-width: 35rem;
     // width: auto;
 
     @media (max-width: 650px){
-
         max-width: 25rem;   
    }
 
@@ -70,6 +69,13 @@
     &__image {
         width: 100%;
         grid-column: 1 / -1;
+        height: 30rem;
+        object-fit: contain;
+        background-image: radial-gradient(#232323, #191919);
+
+        @media (max-width: 650px){
+            height: 20rem;
+       }
     }
 
     &__name {
@@ -101,6 +107,10 @@
         text-align: center;
         padding: 0 2rem;
         color: rgb(233, 248, 248);
+
+        @media (max-width: 650px){
+            font-size: 1rem;
+       }
     }
 
     &__links {

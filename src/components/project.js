@@ -14,14 +14,14 @@ const Project = () => (
         githubLink={"https://github.com/starfrogsplash/"}
       />
     </Fade>
-    <Fade left duration={1500} delay={200}>
+    <Fade left duration={1200} delay={200}>
       <Card
         image={comingSoon}
         demoLink={"https://www.linkedin.com/in/ali-khalil-81100840/"}
         githubLink={"https://github.com/starfrogsplash/"}
       />
     </Fade>
-    <Fade left duration={1700} delay={400}>
+    <Fade left duration={1500} delay={400}>
       <Card
         image={comingSoon}
         demoLink={"https://www.linkedin.com/in/ali-khalil-81100840/"}

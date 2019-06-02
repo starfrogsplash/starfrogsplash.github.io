@@ -13,7 +13,7 @@ const trans = (x, y, s) =>
 const Card = ({ image, demoLink, githubLink }) => {
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 5, tension: 350, friction: 80 }
+    config: { mass: 5, tension: 350, friction: 40 }
   }));
 
   return (

@@ -92,7 +92,7 @@
     &__title{
 
         font-family: "SignPainter";
-        font-size: 3rem;
+        font-size: 4rem;
         margin-left: 1rem;
 
         background: -webkit-linear-gradient(#eee, rgb(57, 80, 92));
@@ -111,6 +111,9 @@
 
     &__list{
         font-family: "SignPainter";
+
+        margin: 0 auto;
+        max-width: 10rem;
         
         &__item a{
             position: relative;

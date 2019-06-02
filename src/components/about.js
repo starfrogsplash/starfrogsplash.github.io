@@ -37,13 +37,21 @@ const About = () => (
       </p>
     </Fade>
 
+
+
     <div className="teckStack">
+
+    <LightSpeed left duration={1000} delay={100}>
       <div className="teckStack__title">
         Tech Stack
+        <LightSpeed left  duration={1200} delay={600}>
         <div className="teckStack__title__line">&nbsp;</div>
+      </LightSpeed>
       </div>
+    </LightSpeed>
+      
 
-      <LightSpeed left cascade>
+      <LightSpeed left cascade delay={1000}>
         <ol className="teckStack__list">
           <li className="teckStack__list__item">
             <a >React.js</a>

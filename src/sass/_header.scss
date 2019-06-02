@@ -86,9 +86,17 @@
         top: 50%;
         width: .8vw;
         height: .8vw;
+        min-width: .6rem;
+        min-height: .6rem;
         margin: -0.2vw 0 0 9.8vw;
         animation: ease 200s alternate infinite;
         pointer-events: none;
+
+    //     @media (max-width: 600px){
+    //         font-size: 1rem;
+    //         width: 1rem;
+    //         height: 1rem;
+    //    }
 
         &::before,
         &::after {
