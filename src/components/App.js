@@ -3,6 +3,7 @@ import NavBar from "./nav";
 import About from "./about";
 import Project from "./project";
 import Footer from "./footer";
+import Contact from './contact'
 import { Header } from "./header";
 import "../sass/main.css";
 import LightSpeed from "react-reveal/LightSpeed";
@@ -13,6 +14,14 @@ const App = () => (
     <Header />
     <About />
     <div className="aboutClip" />
+    <a
+    className="social-links__item"
+    href="https://github.com/starfrogsplash/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <i className="fab fa-github" aria-hidden="true"> </i>
+  </a>
 
     
     <LightSpeed left duration={1000} delay={100}>
@@ -25,6 +34,7 @@ const App = () => (
     </LightSpeed>
 
     <Project />
+    <Contact />
     <Footer />
   </div>
 );
