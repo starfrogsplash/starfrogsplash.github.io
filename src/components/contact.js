@@ -21,8 +21,6 @@ class Contact extends Component {
 
     const url = `https://formsubmit.io/send/${email}`
 
-    console.log(url)
-
     const postData = {
       email: "test@test.com",
       password: "password"
