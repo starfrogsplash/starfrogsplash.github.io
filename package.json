@@ -15,7 +15,8 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.1",
     "react-spring": "^8.0.20",
-    "react-visibility-sensor": "^5.0.2"
+    "react-visibility-sensor": "^5.0.2",
+    "semantic-ui-react": "^0.87.1"
   },
   "scripts": {
     "predeploy": "npm run build",

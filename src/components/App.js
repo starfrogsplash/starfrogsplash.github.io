@@ -14,16 +14,7 @@ const App = () => (
     <Header />
     <About />
     <div className="aboutClip" />
-    <a
-    className="social-links__item"
-    href="https://github.com/starfrogsplash/"
-    rel="noopener noreferrer"
-    target="_blank"
-  >
-    <i className="fab fa-github" aria-hidden="true"> </i>
-  </a>
 
-    
     <LightSpeed left duration={1000} delay={100}>
       <div id="Project" className="title">
         Projects

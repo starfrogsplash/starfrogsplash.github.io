@@ -13,13 +13,13 @@ const repeat = (item, num) => {
 
 
 export const Header = () => (
-  <section className="header">
-    <div id="home" className="header__text">
+  <section className="mainHeader">
+    <div id="home" className="mainHeader__text">
       <LightSpeed left duration={2000}>
-        <h1 className="header__text__name">Ali Khalil</h1>
+        <h1 className="mainHeader__text__name">Ali Khalil</h1>
       </LightSpeed>
       <LightSpeed left duration={2000} delay={600}>
-        <h1 className="header__text__title">Full Stack Web Developer</h1>
+        <h1 className="mainHeader__text__title">Full Stack Web Developer</h1>
       </LightSpeed>
     </div>
     <div className="fireflySet">{repeat(<div className="firefly" />, 25)}</div>

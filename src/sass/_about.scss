@@ -111,7 +111,6 @@
 
     &__list{
         font-family: "SignPainter";
-
         margin: 0 auto;
         max-width: 10rem;
         
@@ -128,9 +127,9 @@
             transition: all .3s ease-out; 
         }
 
-        &__item a:hover{
-            background: rgb(198, 234, 235);
-        }
+        // &__item a:hover{
+        //     background: rgb(198, 234, 235);
+        // }
 
         &__item a:before{
             content: '';
@@ -194,7 +193,7 @@ hr{
         margin: 0 1rem;
         @media (max-width: 600px){
             display: block;
-            
+
        }
 
         &__image{
