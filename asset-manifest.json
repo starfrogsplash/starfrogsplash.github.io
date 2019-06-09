@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4b45d39.chunk.css",
+    "main.js": "/static/js/main.6ed005fc.chunk.js",
+    "main.js.map": "/static/js/main.6ed005fc.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.0a15a8ae.chunk.js": "/static/js/2.0a15a8ae.chunk.js",
+    "static/js/2.0a15a8ae.chunk.js.map": "/static/js/2.0a15a8ae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7f12393aba78946f595a51ae8fc1555.js": "/precache-manifest.c7f12393aba78946f595a51ae8fc1555.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c4b45d39.chunk.css.map": "/static/css/main.c4b45d39.chunk.css.map",
+    "static/media/2018-Cover.jpg": "/static/media/2018-Cover.77dcef68.jpg",
+    "static/media/AWS_combined.png": "/static/media/AWS_combined.710ca294.png",
+    "static/media/Prince2.png": "/static/media/Prince2.fd34af01.png",
+    "static/media/main.css": "/static/media/SnellBT-Regular.4ae6e2df.woff",
+    "static/media/coming-soon.png": "/static/media/coming-soon.f948790e.png"
+  }
+}
